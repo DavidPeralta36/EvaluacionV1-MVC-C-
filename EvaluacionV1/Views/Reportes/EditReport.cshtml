@@ -1,0 +1,33 @@
+﻿@model ClassLibrary1.Reportes
+
+<div >
+    <h2 class="text-light mb-4 mt-5">Editar reporte</h2>
+
+    @using (Html.BeginForm())
+    {
+        <table>
+            <tr class="m-3">
+                <td class="text-light">Equipo</td>
+                <td>@Html.EditorFor(model => model.Equipo, new { htmlAttributes = new { @class = "form-control", placeholder = "Eje. PC" } })</td>
+            </tr>
+            <tr class="m-3">
+                <td class="text-light">Accion a realizar</td>
+                <td>@Html.EditorFor(model => model.AccionRealizar, new { htmlAttributes = new { @class = "form-control", placeholder = "Eje. Mantenimiento"} })</td>
+            </tr>
+            <tr class="m-3">
+                <td class="text-light">Atencion</td>
+                <td>@Html.EditorFor(model => model.Atencion, new { htmlAttributes = new { @class = "form-control", placeholder = "Eje. Externo" } })</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="Editar Registro" class="btn btn-success" />
+                    <a class="btn btn-warning text-dark" asp-action="Index">Volver a la lista</a>
+                </td>
+
+            </tr>
+        </table>
+    }
+</div>
+
+

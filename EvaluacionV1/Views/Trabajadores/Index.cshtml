@@ -1,0 +1,47 @@
+﻿@model List<ClassLibrary1.Trabajadores>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="bg-dark text-light mt-4">
+    <h2>Lista de Trabajadores</h2>
+
+    <hr />
+    <table class="table text-light">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre</th>
+                <th>Apellido Paterno</th>
+                <th>Apellido Materno</th>
+                <th>Rol Asignado</th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.IdTrabajador
+                </td>
+                <td>
+                    @item.Nombre
+                </td>
+                <td>
+                    @item.Apaterno
+                </td>
+                <td>
+                    @item.Amaterno
+                </td>
+                <td>
+                    @item.Rol
+                </td>
+            </tr>
+        }
+
+    </table>
+    <hr />
+    <a class="btn btn-primary" asp-area="" asp-controller="JefeComputo" asp-action="Index">Volver a la vista principal</a>
+</div>

@@ -1,0 +1,55 @@
+﻿@model List<ClassLibrary1.Reportes>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<div class="text-center text-light">
+    <h1 >Bienvenido Jefe del centro de computo </h1>
+
+    <h4> Tickets por revisar </h4>
+
+    <hr />
+    <table class="table text-light">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Equipo</th>
+                <th>Accion a realizar</th>
+                <th>Atencion</th>
+            </tr>
+        </thead>
+
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @item.IdReporte
+                </td>
+                <td>
+                    @item.Equipo
+                </td>
+                <td>
+                    @item.AccionRealizar
+                </td>
+                <td>
+                    @item.Atencion
+                </td>
+                <td>
+                    <div class="btn btn-primary">
+                        <a>@Html.ActionLink("Editar", "EditReport", new { IdReporte = item.IdReporte })</a>
+                    </div>
+                    <div class="btn btn-success">
+                        <a>@Html.ActionLink("Aceptar", "DeleteReport", new { IdReporte = item.IdReporte })</a>
+                    </div>
+                </td>
+
+            </tr>
+        }
+
+    </table>
+    <hr />
+    <a class="btn btn-primary btnUsr" asp-area="" asp-controller="Trabajadores" asp-action="Index">Usuarios</a>
+</div>

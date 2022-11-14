@@ -1,0 +1,100 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EvaluacionV1
+build_property.RootNamespace = EvaluacionV1
+build_property.ProjectDir = C:\Users\david\source\repos\EvaluacionV1\EvaluacionV1\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\david\source\repos\EvaluacionV1\EvaluacionV1
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeArea/AddReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUFyZWFcQWRkUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeArea/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUFyZWFcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeArea/LastDetails.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUFyZWFcTGFzdERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeArea/ListR.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUFyZWFcTGlzdFIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeComputo/DeleteReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUNvbXB1dG9cRGVsZXRlUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeComputo/EditReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUNvbXB1dG9cRWRpdFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/JefeComputo/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSmVmZUNvbXB1dG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Reportes/AddReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcQWRkUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Reportes/DeleteReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcRGVsZXRlUmVwb3J0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Reportes/DetailsReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcRGV0YWlsc1JlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Reportes/EditReport.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcRWRpdFJlcG9ydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Reportes/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVwb3J0ZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Roles/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUm9sZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Trabajadores/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHJhYmFqYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/david/source/repos/EvaluacionV1/EvaluacionV1/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ogob7mibke

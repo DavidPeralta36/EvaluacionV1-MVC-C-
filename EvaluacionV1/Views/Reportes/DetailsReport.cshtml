@@ -1,0 +1,40 @@
+﻿@model ClassLibrary1.Reportes
+
+@{
+    ViewData["Title"] = "DetailsReport";
+}
+
+<h2>Detalles del reporte</h2>
+
+<table class="table text-light">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Equipo</th>
+            <th>Accion a realizar</th>
+            <th>Atencion</th>
+        </tr>
+    </thead>
+
+        <tr>
+            <td>
+                @Html.DisplayFor(model => model.IdReporte)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Equipo)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.AccionRealizar)
+            </td>
+            <td>
+                @Html.DisplayFor(model => model.Atencion)
+            </td>
+        </tr>
+</table>
+<div>
+    <div class="btn btn-primary text-dark">
+        @Html.ActionLink("Editar registro", "EditReport", new { IdReporte = Model.IdReporte })
+    </div>
+    <a class="btn btn-warning text-dark" asp-action="Index">Volver a la lista</a>
+</div>
+

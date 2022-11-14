@@ -1,0 +1,78 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: rgb(33,37,41)
+}
+
+.relleno{
+    height:618px;
+    width:1900px;
+}
+.alineado{
+    justify-content:center;
+    align-items:center;
+}
+
+.link1{
+    color:#000;
+}
+
+a{
+    text-decoration:none;
+    color:#fff
+}
+
+a:hover,
+a:visited,
+a:active{
+    color:#fff
+}
+
+img{
+    height:200px;
+    width:200px;
+}
+.divLog{
+display:flex;
+align-items:flex-start;
+margin-left:100px;
+}
+
+.plog{
+    min-width:300px;
+}
+.plog2 {
+    min-width: 300px;
+    padding-left:90px
+}
+
+.inpLog{
+    width:600px
+}
+
+.buttons{
+    margin:0 auto;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    width:300px;
+    align-items:center;
+}
+
+.btnUsr{
+    margin-left:-1200px
+}
