@@ -26,9 +26,18 @@
     <Property Name="Amaterno" Type="varchar" MaxLength="40" Nullable="false" />
     <Property Name="Rol" Type="varchar" MaxLength="40" Nullable="false" />
   </EntityType>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="int" Nullable="false" />
+    <Property Name="NombreUsr" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="ContraseñaUsr" Type="varchar" MaxLength="40" Nullable="false" />
+  </EntityType>
   <EntityContainer Name="ProyectoModelStoreContainer">
     <EntitySet Name="Reportes" EntityType="Self.Reportes" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Roles" EntityType="Self.Roles" Schema="dbo" store:Type="Tables" />
     <EntitySet Name="Trabajadores" EntityType="Self.Trabajadores" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Usuarios" EntityType="Self.Usuarios" Schema="dbo" store:Type="Tables" />
   </EntityContainer>
 </Schema>

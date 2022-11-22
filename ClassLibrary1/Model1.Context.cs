@@ -28,5 +28,6 @@ namespace ClassLibrary1
         public virtual DbSet<Reportes> Reportes { get; set; }
         public virtual DbSet<Roles> Roles { get; set; }
         public virtual DbSet<Trabajadores> Trabajadores { get; set; }
+        public virtual DbSet<Usuarios> Usuarios { get; set; }
     }
 }

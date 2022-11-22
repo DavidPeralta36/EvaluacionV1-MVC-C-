@@ -30,5 +30,14 @@
     <EntitySet Name="Reportes" EntityType="Self.Reportes" />
     <EntitySet Name="Roles" EntityType="Self.Roles" />
     <EntitySet Name="Trabajadores" EntityType="Self.Trabajadores" />
+    <EntitySet Name="Usuarios" EntityType="ProyectoModel.Usuarios" />
   </EntityContainer>
+  <EntityType Name="Usuarios">
+    <Key>
+      <PropertyRef Name="IdUser" />
+    </Key>
+    <Property Name="IdUser" Type="Int32" Nullable="false" />
+    <Property Name="NombreUsr" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="ContraseñaUsr" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+  </EntityType>
 </Schema>
